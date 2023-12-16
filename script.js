@@ -21,12 +21,12 @@ switch (menu) {
       bakiye + paraYatir)} Türk Lirasıdır.`;
     break;
   case 3:
-    let paraCek = Number(prompt("Çekmek istediğiniz tutarı giriniz."));
+    let paraCek = Number(prompt("Çekmek istediğiniz tutarı giriniz"));
     screenText.innerHTML = `Para Çekme işleminiz başarı ile gerçekleştirilmiştir. Güncel Bakiyeniz ${(bakiye =
-      bakiye - paraCek)} Türk Lirasıdır. `;
+      bakiye - paraCek)} Türk Lirasıdır `;
 
     if (bakiye < paraCek) {
-      screenText.innerHTML = `Bakiyeniz yetersizdir`;
+      screenText.innerHTML = `Bakiyeniz yetersizdir.`;
     }
 
     break;
