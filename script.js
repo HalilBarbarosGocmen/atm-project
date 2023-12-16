@@ -26,7 +26,7 @@ switch (menu) {
       bakiye - paraCek)} Türk Lirasıdır. `;
 
     if (bakiye < paraCek) {
-      screenText.innerHTML = `Bakiyeniz yetersizdir.`;
+      screenText.innerHTML = `Bakiyeniz yetersizdir`;
     }
 
     break;
